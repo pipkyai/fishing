@@ -12,7 +12,6 @@ const Header = () => {
             <span className={'username'}>
                 {tg.initDataUnsafe?.user?.username}
             </span>
-
         </div>
     );
 };
