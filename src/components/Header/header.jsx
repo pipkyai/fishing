@@ -6,7 +6,9 @@ const Header = () => {
     const {user, onClose,tg} = useTelegram();
     return (
         <div className={'header'}>
-            <Button onClick={onClose()}>Закрыть</Button>
+            {/*<Button onClick={onClose()}>Закрыть</Button>*/}
+            <Button>Закрыть</Button>
+
             <span className={'username'}>
                 {tg.initDataUnsafe?.user?.username}
             </span>
