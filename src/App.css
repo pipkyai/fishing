@@ -5,6 +5,7 @@
 }
 
 body {
-    background: var(--tg-theme-bg-color);
+    /*background: var(--tg-theme-bg-color);*/
     color: var(--tg-theme-text-color);
+    background-image: url("https://sportishka.com/uploads/posts/2022-03/1646880090_54-sportishka-com-p-prozrachnoe-ozero-turizm-krasivo-foto-58.jpg ");
 }
