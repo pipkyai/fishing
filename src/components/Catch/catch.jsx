@@ -3,7 +3,7 @@ import './catch.css';
 
 const Catch = () => {
     return (
-        <div className={'catch'}>
+        <div className={'catch'} onClick={alert}>
 
         </div>
     );
